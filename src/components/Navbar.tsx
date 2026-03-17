@@ -10,16 +10,20 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   const links = [
-    { label: t.about[lang], href: "#about" },
+    { label: t.home[lang], href: "#" },
     { label: t.services[lang], href: "#services" },
-    { label: t.why[lang], href: "#why" },
     { label: t.howWeWork[lang], href: "#how" },
+    { label: t.whoIsFor[lang], href: "#who" },
     { label: t.contact[lang], href: "#contact" },
   ];
 
   const scrollTo = (href: string) => {
     setOpen(false);
-    document.querySelector(href)?.scrollIntoView({ behavior: "smooth" });
+    if (href === "#") {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    } else {
+      document.querySelector(href)?.scrollIntoView({ behavior: "smooth" });
+    }
   };
 
   return (
