@@ -37,7 +37,7 @@ const ServicesSection = () => {
                 transition={{ duration: 0.4, delay: i * 0.08 }}
                 whileHover={{ y: -4, boxShadow: "var(--shadow-md)" }}
               >
-                <div className="w-12 h-12 bg-emerald-soft rounded-md flex items-center justify-center mb-6">
+                <div className="w-12 h-12 bg-blue-soft rounded-md flex items-center justify-center mb-6">
                   <Icon size={24} className="text-primary" strokeWidth={2} />
                 </div>
                 <h3 className="text-lg font-bold text-foreground mb-3">{item.title[lang]}</h3>

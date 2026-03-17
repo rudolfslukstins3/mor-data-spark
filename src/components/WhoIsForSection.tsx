@@ -8,7 +8,7 @@ const WhoIsForSection = () => {
   const t = translations.whoIsFor;
 
   return (
-    <section className="py-20 lg:py-28 bg-secondary">
+    <section id="who" className="py-20 lg:py-28 bg-secondary">
       <div className="container mx-auto px-4 lg:px-8">
         <motion.div
           className="text-center mb-12"

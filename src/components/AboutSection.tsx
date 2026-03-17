@@ -30,7 +30,7 @@ const AboutSection = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.1 }}
           >
-            <div className="w-12 h-12 bg-emerald-soft rounded-md flex items-center justify-center mb-6">
+            <div className="w-12 h-12 bg-blue-soft rounded-md flex items-center justify-center mb-6">
               <Target size={24} className="text-primary" />
             </div>
             <p className="text-muted-foreground leading-relaxed">{t.p1[lang]}</p>
@@ -43,7 +43,7 @@ const AboutSection = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.2 }}
           >
-            <div className="w-12 h-12 bg-emerald-soft rounded-md flex items-center justify-center mb-6">
+            <div className="w-12 h-12 bg-blue-soft rounded-md flex items-center justify-center mb-6">
               <Lightbulb size={24} className="text-primary" />
             </div>
             <p className="text-muted-foreground leading-relaxed">{t.p2[lang]}</p>

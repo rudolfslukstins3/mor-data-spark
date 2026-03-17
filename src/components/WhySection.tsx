@@ -35,7 +35,7 @@ const WhySection = () => {
                 viewport={{ once: true }}
                 transition={{ duration: 0.4, delay: i * 0.08 }}
               >
-                <div className="w-11 h-11 shrink-0 bg-emerald-soft rounded-md flex items-center justify-center">
+                <div className="w-11 h-11 shrink-0 bg-blue-soft rounded-md flex items-center justify-center">
                   <Icon size={20} className="text-primary" />
                 </div>
                 <div>

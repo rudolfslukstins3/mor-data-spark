@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useLang } from "@/i18n/LanguageContext";
 import { translations } from "@/i18n/translations";
 import logo from "@/assets/mordata-logo.png";
-import { Linkedin, Mail } from "lucide-react";
+import { Linkedin, Mail, Phone } from "lucide-react";
 
 const FooterSection = () => {
   const { lang } = useLang();
@@ -37,11 +37,24 @@ const FooterSection = () => {
           </div>
 
           <div className="flex flex-col items-start md:items-end gap-4">
+            <div className="space-y-2 text-sm text-primary-foreground/60">
+              <a href="mailto:info@mor-data.com" className="flex items-center gap-2 hover:text-primary-foreground transition-colors">
+                <Mail size={14} /> info@mor-data.com
+              </a>
+              <a href="tel:+37122320007" className="flex items-center gap-2 hover:text-primary-foreground transition-colors">
+                <Phone size={14} /> +371 22320007
+              </a>
+            </div>
             <div className="flex items-center gap-3">
-              <a href="mailto:info@mordata.lv" className="w-10 h-10 rounded-md bg-primary-foreground/10 flex items-center justify-center hover:bg-primary-foreground/20 transition-colors">
+              <a href="mailto:info@mor-data.com" className="w-10 h-10 rounded-md bg-primary-foreground/10 flex items-center justify-center hover:bg-primary-foreground/20 transition-colors">
                 <Mail size={18} />
               </a>
-              <a href="#" className="w-10 h-10 rounded-md bg-primary-foreground/10 flex items-center justify-center hover:bg-primary-foreground/20 transition-colors">
+              <a
+                href="https://www.linkedin.com/company/mordata-solutions/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 rounded-md bg-primary-foreground/10 flex items-center justify-center hover:bg-primary-foreground/20 transition-colors"
+              >
                 <Linkedin size={18} />
               </a>
             </div>

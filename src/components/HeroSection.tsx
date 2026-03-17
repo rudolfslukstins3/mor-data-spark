@@ -72,13 +72,13 @@ const HeroSection = () => {
               {/* Floating icons */}
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 bg-emerald-soft rounded-md flex items-center justify-center">
+                  <div className="w-10 h-10 bg-blue-soft rounded-md flex items-center justify-center">
                     <BarChart3 size={20} className="text-primary" />
                   </div>
-                  <div className="w-10 h-10 bg-emerald-soft rounded-md flex items-center justify-center">
+                  <div className="w-10 h-10 bg-blue-soft rounded-md flex items-center justify-center">
                     <Workflow size={20} className="text-primary" />
                   </div>
-                  <div className="w-10 h-10 bg-emerald-soft rounded-md flex items-center justify-center">
+                  <div className="w-10 h-10 bg-blue-soft rounded-md flex items-center justify-center">
                     <Database size={20} className="text-primary" />
                   </div>
                 </div>

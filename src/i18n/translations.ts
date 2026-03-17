@@ -2,10 +2,10 @@ export type Lang = "lv" | "en";
 
 export const translations = {
   nav: {
-    about: { lv: "Par mums", en: "About" },
+    home: { lv: "Sākums", en: "Home" },
     services: { lv: "Pakalpojumi", en: "Services" },
-    why: { lv: "Kāpēc mēs", en: "Why Us" },
     howWeWork: { lv: "Kā strādājam", en: "How We Work" },
+    whoIsFor: { lv: "Kam domāts", en: "Who This Is For" },
     contact: { lv: "Kontakti", en: "Contact" },
   },
   hero: {
@@ -144,14 +144,14 @@ export const translations = {
   },
   cta: {
     headline: {
-      lv: "Uzziniet, ko jūsu biznesā var automatizēt",
+      lv: "Noskaidrojiet, ko iespējams automatizēt jūsu uzņēmumā",
       en: "Discover What Can Be Automated in Your Business",
     },
     text: {
-      lv: "Daudzi uzņēmumi katru gadu izšķiež simtiem stundu manuāliem procesiem, kurus varētu automatizēt. MorData palīdz identificēt šīs iespējas un ieviest praktiskus risinājumus.",
-      en: "Many companies waste hundreds of hours each year on manual processes that could be automated. MorData helps identify those opportunities and implement practical solutions.",
+      lv: "Daudzi uzņēmumi katru mēnesi pavada desmitiem stundu manuālos procesos. MorData palīdz identificēt šīs iespējas un ieviest praktiskus automatizācijas risinājumus.",
+      en: "Many companies spend hundreds of hours each year on manual processes that could be automated. MorData helps identify these opportunities and implement practical automation solutions.",
     },
-    button: { lv: "Pieteikt konsultāciju", en: "Schedule a Consultation" },
+    button: { lv: "Pieteikt konsultāciju", en: "Book a Consultation" },
   },
   testimonials: {
     tag: { lv: "Klientu atsauksmes", en: "Client Testimonials" },
@@ -194,14 +194,22 @@ export const translations = {
     },
     name: { lv: "Vārds", en: "Name" },
     email: { lv: "E-pasts", en: "Email" },
-    company: { lv: "Uzņēmums", en: "Company" },
+    company: { lv: "Uzņēmums (neobligāti)", en: "Company (optional)" },
     message: { lv: "Ziņojums", en: "Message" },
     send: { lv: "Nosūtīt", en: "Send Message" },
+    success: {
+      lv: "Paldies! Jūsu ziņa ir nosūtīta. Mēs ar jums sazināsimies drīzumā.",
+      en: "Thank you! Your message has been sent. We will contact you shortly.",
+    },
+    info: {
+      emailLabel: { lv: "E-pasts", en: "Email" },
+      phoneLabel: { lv: "Tālrunis", en: "Phone" },
+    },
   },
   footer: {
     desc: {
-      lv: "Datu vadīta lēmumu pieņemšana un biznesa procesu automatizācija.",
-      en: "Data-driven decision making and business process automation.",
+      lv: "MorData palīdz uzņēmumiem uzlabot efektivitāti ar datu analītiku un procesu automatizāciju.",
+      en: "MorData helps companies improve efficiency through data analytics and process automation.",
     },
     rights: {
       lv: "Visas tiesības aizsargātas.",
